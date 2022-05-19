@@ -18,16 +18,7 @@ La entrada son los parámetros `scian` y `region`, los cuales serán strings. Se
 
 ---
 
-La función SCIAN_prep recibe el código SCIAN que introdujo el usuario, ya sea por sector, subsector, rama, subrama o clase, y regresa un conjunto de parámetros necesarios para la consulta en SQL.
 
----
-
-`SCIAN_prep(scian)`
-
-* Determina el númeno de dígitos solicitados
-* ...
-
----
 La función DENUE_SQL se encarga de recibir los parámetros necesarios para la consulta, y regresa el conjunto de datos con las tres variables necesarias para la gráfica.
 
 ---
