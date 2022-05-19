@@ -6,9 +6,6 @@ La entrada son los parámetros `scian` y `region`, los cuales serán strings. Se
 
 `VizDENUE(scian = str, region = str)`
 * To String `scian`
-* SCIAN_prep(`scian`)
-
-    Hace los ajustes necesarios para determinar la búsqueda de actividades en la base SQL. Probablemente requiera crear parámetros que se introduciran en la consulta.
 
 * DENUE_SQL(`params`)
 
